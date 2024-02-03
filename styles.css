@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;600;700;800&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+
+}
+
+body{
+    margin: 50px;
+}
+
+.primary-clr{
+    color: rgb(255, 84, 0);
+}
+.ban img{
+    /* width: 50px;
+    height: 50px; */
+ position: absolute;
+ padding: 45px 0px;
+
+}
+.nav-title{
+    font-size: 2rem;
+    margin-left: 80px;
+    font-family: Mulish;
+
+}
+
+
+
+.ban{
+    display: flex;}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    
+    
+}
+nav li>a{
+    text-decoration: none;
+    color: rgb(66, 66, 71);
+}
+.home a{
+    color: rgb(255, 84, 0);
+
+}
+
+.banner{
+    padding-top: 100px;
+    text-align: center;
+    height: 600px;
+    background-image:url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+#explr{
+    font-weight: 800;
+    font-size: 4rem;
+    color: rgb(255, 255, 255);;
+    
+}
+.banner p{
+    
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+.container{
+    height: 80px;
+    width: 1000px;
+   gap: 20px;
+    margin-left: 300px;
+    margin-top: 50px;
+    padding-top: 25px;
+    /* border: 2px solid red; */
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    align-items: center;
+    
+    
+    
+}
+.container input{
+    border-radius: 8px;
+    border-style: none;
+    
+    
+}
+
+.btn-primary{
+    padding: 10px 45px;
+    background-color: rgb(255, 84, 0);
+    /* text-align: center;
+    border-radius: 8px; */
+
+}
+.container form > input{
+    width: 174px;
+height: 52px;
+color: rgb(255, 255, 255);
+text-align: center;
+
+}
+.tours{
+    display: flex;
+    
+}
+.tours-title{
+   color: rgba(19, 19, 24, 0.7);
+}
+
+.tours ul li{
+   margin-right:250px;
+   margin-top: 50px;
+   
+}
+
+.tours-title h3{
+    
+    font-size: 40px;
+font-weight: 800;
+}
+.tours-title-img{
+    padding-top: 80px;
+   
+}
+.tours-2{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.btn-primary2{
+    width: 150px;
+    height: 50px;
+    background: rgb(255, 84, 0);
+    margin-top: 20px;
+    border-radius: 8px;
+    border-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.Destination{
+    margin-top: 100px;
+    
+    text-align: center;
+}
+.Destination > h2{
+    font-size: 3rem;
+    color: rgb(19, 19, 24);
+    
+}
+.Destination > p{
+    font-size: 1rem;
+    color: rgba(19, 19, 24, 0.7);
+    padding-bottom: 50px;
+    
+}
+
+
+.Destination-img{
+    display: grid;
+
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+
+  
+.Destination-img-1{
+    display: flex;
+    width: 100%;
+    size: 100%;
+    gap: 20px;
+}
+.Destination-img-2{
+    display: flex;
+   
+    gap: 20px;
+}
+.Destination-img-3{
+    display: flex;
+    gap: 20px;
+}
+
+.Choose{
+    text-align: center;
+    padding-top: 100px;
+ 
+}
+.Choose h3{
+    color: rgb(19, 19, 24);
+    font-size: 3rem;
+}
+.Choose p{
+    color: rgba(19, 19, 24, 0.7);
+    
+    font-size: 1rem;
+}
+
+.Choose-items{
+    padding-top: 100px;
+    display: flex;
+    gap: 20px;
+}
+.grp h4{
+    color: rgb(19, 19, 24);
+font-family: Mulish;
+font-size: 1.6rem;
+}
+
+.grp p{
+    color: rgb(90, 90, 93);
+
+font-size: 1rem;
+}
+
+
+.grp27 h4{
+    color: rgb(19, 19, 24);
+font-family: Mulish;
+font-size: 1.6rem;
+}
+
+.grp27 p{
+    color: rgb(90, 90, 93);
+
+font-size: 1rem;
+}
+
+.grp26{
+    /* text-align: center; */
+    background-color: rgba(233, 68, 68, 0.05);
+    width: 500px;
+    height: 300px;
+    /* align-items: center; */
+    margin-left: 450px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.grp26 h4{
+    color: rgb(19, 19, 24);
+font-family: Mulish;
+font-size: 1.6rem;
+}
+
+.grp26 p{
+    color: rgb(90, 90, 93);
+
+font-size: 1rem;
+}
+
+.subscribe-section{
+    display: flex;
+    gap: 30px;
+}
+
+
+.subscribe-title{
+
+    border: 2px solid rgb(255, 84, 0);;
+    padding: 30px;
+    width: 40%;
+    border-radius: 10px;
+
+}
+
+.subscribe-title h4{
+    color: rgb(19, 19, 24);
+    font-size: 1.2rem;
+}
+.subscribe-title p{
+    color: rgb(90, 90, 93);
+    font-size: 1rem;
+}
+
+.subscribe{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe button{
+    padding: 18px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    background-color: 
+    rgb(255, 84, 0);
+    border-radius: 8px;
+    border-style: none;
+}
+.subscribe input{
+    padding: 16px;
+    margin: 2px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+.footer-title{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-name{
+    font-size: 32px;
+    padding-left: 20px;
+}
+.footer-title-p{
+    text-align: center;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px;
+}
+.scale{
+    border: 0.1px solid rgba(19, 19, 24, 0.1);
+    width: 900px;
+    margin-left: 280px;
+}
+.copy{
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(19, 19, 24);
+    font-size: 1rem;
+}
+
+@media screen and (max-widht:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        display: none;
+    }
+    
+}
